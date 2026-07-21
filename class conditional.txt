@@ -1,0 +1,28 @@
+ class conditional 
+{
+public static void main(String args[]){
+int a =700;
+int b =500;
+int c =200;
+if(a>bb&&a>c)
+{
+if(a<20){
+System.out.println("Code 1");}
+else{
+System.out.println("Code 2");}}
+else if(b>a && b>c){
+System.out.println("B is greater");}
+else if(c>a && c>b){
+System.out.println("c is greater");}
+switch(a) {
+case10:
+System.out.println("Code 3");
+break;
+case 20:
+System.out.println("Code 4");
+break;
+case 30:
+System.out.println("Code 5");
+default:
+System.out.println("Code 6");
+break; }}}
